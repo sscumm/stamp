@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <title>Stamp - Simple Way To Organize Your Inspirations</title>
+        <link rel="stylesheet" type="text/css" href="styles/stamp.css">
+        <script src="js/stamp.js"></script>
+    </head>
+    <body>
+        <nav>
+            <h1>Stamp</h1>
+            <ul>
+                <a href="#">About</a>
+                <a href="#">Integrations</a>
+                <a href="#">Pricing</a>
+                <a href="#">Contacts</a>
+            </ul>
+            <button class="menu-button" type="button" title="Menu" name="Menu" onclick="toggleMenu()">
+                <div class="menu-icon-bar menu-icon-bar-1"></div>
+                <div class="menu-icon-bar menu-icon-bar-2"></div>
+                <div class="menu-icon-bar menu-icon-bar-3"></div>
+            </button>
+        </nav>
+        <section id="site-menu">
+            <ul>
+                <li><a href="#">Menu option 1</a></li>
+                <li><a href="#">Menu option 2</a></li>
+                <li><a href="#">Menu option 3</a></li>
+            </ul>
+        </section>
+        <main onclick="hideMenu()">
+            <div class="container container-description">
+                <div class="container-content">
+                    <h2>Simple Way To Organize Your Inspirations</h2>
+                    <p>I think what motivates people is not great hate, but great love for other people. </p>
+                </div>
+            </div>
+            <div class="container container-signup-form">
+                <div class="container-content">
+                    <h3>Sign up for free</h3>
+                    <form class="signup-form">
+                        <input type="text" title="Name" name="Name" placeholder="Name" />
+                        <input type="email" title="E-mail" name="E-mail" placeholder="E-mail" />
+                        <input type="password" title="Password" name="Password" placeholder="Password" />
+                        <button type="submit">Sign up ></button>
+                    </form>
+                    <small>
+                        By clicking "Sign up" I agree to our<br />
+                        <a href="#">Terms of Service</a>.
+                    </small>
+                </div>
+            </div>
+        </main>
+        <footer onclick="hideMenu()">
+            <span class="copyright">© 2016 Stamp. All Rights Reserved</span>
+            <ul class="footer-links">
+                <a href="#">Contact</a>
+                <a href="#">Help</a>
+                <a href="#">Terms of Use</a>
+                <a href="#">Privacy Policy</a>
+            </ul>
+        </footer>
+    </body>
+</html>
