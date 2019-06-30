@@ -396,10 +396,10 @@ and (max-device-width : 767px) {
 
     #site-menu .mobile-main-menu {
         display: inherit;
-
     }
 
-    .signup-form input {
+    .signup-form input,
+    .signup-form button {
         height: 10vh;
         font-size: 40px;
     }
