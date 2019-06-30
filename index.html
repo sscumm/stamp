@@ -7,11 +7,11 @@
     <body>
         <nav>
             <h1>Stamp</h1>
-            <ul>
-                <a href="#">About</a>
-                <a href="#">Integrations</a>
-                <a href="#">Pricing</a>
-                <a href="#">Contacts</a>
+            <ul id="page-menu">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Integrations</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Contacts</a></li>
             </ul>
             <button class="menu-button" type="button" title="Menu" name="Menu" onclick="toggleMenu()">
                 <div class="menu-icon-bar menu-icon-bar-1"></div>
@@ -24,6 +24,12 @@
                 <li><a href="#">Menu option 1</a></li>
                 <li><a href="#">Menu option 2</a></li>
                 <li><a href="#">Menu option 3</a></li>
+            </ul>
+            <ul class="mobile-page-menu">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Integrations</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Contacts</a></li>
             </ul>
         </section>
         <main onclick="hideMenu()">
@@ -52,10 +58,10 @@
         <footer onclick="hideMenu()">
             <span class="copyright">© 2016 Stamp. All Rights Reserved</span>
             <ul class="footer-links">
-                <a href="#">Contact</a>
-                <a href="#">Help</a>
-                <a href="#">Terms of Use</a>
-                <a href="#">Privacy Policy</a>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Help</a></li>
+                <li><a href="#">Terms of Use</a></li>
+                <li><a href="#">Privacy Policy</a></li>
             </ul>
         </footer>
     </body>
