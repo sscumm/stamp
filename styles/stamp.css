@@ -93,6 +93,14 @@ body a:active {
     color: white;
 }
 
+body a:hover {
+    color: #d0d0d0;
+}
+
+body a:hover h1 {
+    color: white;
+}
+
 h1 {
     font-size: 32px;
 }
@@ -130,12 +138,6 @@ h2 {
         font-size: 34px;
     }   
 }
-
-/* @media (min-width: 768px) {
-    h2 {
-        font-size: 34px;
-    }   
-} */
 
 @media (max-width: 767px) {
     h2 {
@@ -387,6 +389,7 @@ and (max-device-width : 767px) {
     #site-menu {
         min-width: 100vw;
         margin-right: -100vw;
+        padding-top: 15%;
         background-color: rgba(0, 0, 0, 0.9);
         font-size: 2em;
     }
@@ -406,5 +409,4 @@ and (max-device-width : 767px) {
         align-items: center;
         font-size: 26px;
     }
-
 }
